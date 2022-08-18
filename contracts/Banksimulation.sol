@@ -34,3 +34,7 @@ contract BankSimulation{
     }
 
 }
+
+//=============================deployed contract================================/// @title A title that should describe the contract/interface
+// Contract address=====0x779c3275001e72259d0655CCCDc059e92D0cE567==========
+// Transaction receipt===

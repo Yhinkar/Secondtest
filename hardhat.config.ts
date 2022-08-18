@@ -14,9 +14,9 @@ const config: HardhatUserConfig = {
       },
     },
    rinkeby: {
-     url: process.env.URL,
+     url: "https://eth-rinkeby.alchemyapi.io/v2/UM3dl6sgo5QF_hy91pIz4j619Xci05ZC",
       //@ts-ignore
-     accounts: process.env.KEY,
+     accounts: ["45d3590f57a8d81557198b8f0d17132cee3d704d8886554bdca04bcff5b404a4"],
     },
   },
 };

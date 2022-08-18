@@ -5,6 +5,190 @@
       "BankSimulation": {
         "src": "contracts/Banksimulation.sol:5",
         "version": {
+          "withMetadata": "074111441ea5703f12bf23ad79ab90a844758a9d3f76c2f2c5f55426ae702d29",
+          "withoutMetadata": "c4b9354bf6625d0e9afa61f923d72565bef6571a350ae0b8c0e408105c815e1d",
+          "linkedWithoutMetadata": "c4b9354bf6625d0e9afa61f923d72565bef6571a350ae0b8c0e408105c815e1d"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "Deposit()",
+          "withDrawFunds(uint256)",
+          "retrieveFunds()",
+          "transferFunds(address payable,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "BankSimulation",
+            "src": "contracts/Banksimulation.sol:9"
+          },
+          {
+            "kind": "state-variable-assignment",
+            "name": "_switch",
+            "src": "contracts/Banksimulation.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "Customer",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address_payable",
+              "contract": "BankSimulation",
+              "src": "contracts/Banksimulation.sol:7"
+            },
+            {
+              "label": "_switch",
+              "offset": 20,
+              "slot": "0",
+              "type": "t_bool",
+              "contract": "BankSimulation",
+              "src": "contracts/Banksimulation.sol:8"
+            }
+          ],
+          "types": {
+            "t_address_payable": {
+              "label": "address payable",
+              "numberOfBytes": "20"
+            },
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "IBankSimulation": {
+        "src": "contracts/IBankSimulation.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "Deposit()",
+          "withDrawFunds(uint256)",
+          "retrieveFunds()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      }
+    },
+    {
+      "BankSimulation": {
+        "src": "contracts/Banksimulation.sol:5",
+        "version": {
+          "withMetadata": "a6ec7160a4c8f9e025d9d17953ac860f53ed5645d7e9b1820d3efa2064305beb",
+          "withoutMetadata": "c4b9354bf6625d0e9afa61f923d72565bef6571a350ae0b8c0e408105c815e1d",
+          "linkedWithoutMetadata": "c4b9354bf6625d0e9afa61f923d72565bef6571a350ae0b8c0e408105c815e1d"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "Deposit()",
+          "withDrawFunds(uint256)",
+          "retrieveFunds()",
+          "transferFunds(address payable,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "BankSimulation",
+            "src": "contracts/Banksimulation.sol:9"
+          },
+          {
+            "kind": "state-variable-assignment",
+            "name": "_switch",
+            "src": "contracts/Banksimulation.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "Customer",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address_payable",
+              "contract": "BankSimulation",
+              "src": "contracts/Banksimulation.sol:7"
+            },
+            {
+              "label": "_switch",
+              "offset": 20,
+              "slot": "0",
+              "type": "t_bool",
+              "contract": "BankSimulation",
+              "src": "contracts/Banksimulation.sol:8"
+            }
+          ],
+          "types": {
+            "t_address_payable": {
+              "label": "address payable",
+              "numberOfBytes": "20"
+            },
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "IERC20": {
+        "src": "contracts/IERC20.sol:7",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "totalSupply()",
+          "balanceOf(address)",
+          "transfer(address,uint256)",
+          "allowance(address,address)",
+          "approve(address,uint256)",
+          "transferFrom(address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      },
+      "IUniswap": {
+        "src": "contracts/Uniswap.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "swapExactTokensForTokens(uint256,uint256,address[],address,uint256)",
+          "addLiquidityETH(address,uint256,uint256,uint256,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      }
+    },
+    {
+      "BankSimulation": {
+        "src": "contracts/Banksimulation.sol:5",
+        "version": {
           "withMetadata": "a6ec7160a4c8f9e025d9d17953ac860f53ed5645d7e9b1820d3efa2064305beb",
           "withoutMetadata": "c4b9354bf6625d0e9afa61f923d72565bef6571a350ae0b8c0e408105c815e1d",
           "linkedWithoutMetadata": "c4b9354bf6625d0e9afa61f923d72565bef6571a350ae0b8c0e408105c815e1d"

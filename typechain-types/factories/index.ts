@@ -3,4 +3,5 @@
 /* eslint-disable */
 export * as banksimulationSol from "./Banksimulation.sol";
 export * as uniswapSol from "./Uniswap.sol";
+export { IBankSimulation__factory } from "./IBankSimulation__factory";
 export { IERC20__factory } from "./IERC20__factory";
