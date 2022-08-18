@@ -14,7 +14,7 @@ async function main() {
  
  const bank= await ethers.getContractAt("IBankSimulation", CONTRACT_ADDRESS)
 
- const contractBal = await bank.retrieveFunds();
+ const contractBal = await bank.Deposit();
  console.log("Our contract balance is", contractBal);
 
 }
